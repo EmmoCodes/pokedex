@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("src/assets/font/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("src/assets/font/Roboto/Roboto-Bold.ttf");
+}
+
+.gridOwn {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    padding-inline: 10px;
+    row-gap: 20px;
+}
