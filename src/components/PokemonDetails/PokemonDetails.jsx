@@ -20,7 +20,7 @@ function PokemonDetails() {
   }
 
   return (
-    <section className="w-sc h-screen m-auto bg-pokemonBg border-none rounded-2xl flex flex-col">
+    <section className="w-screen h-screen m-auto bg-pokemonBg border-none rounded-2xl flex flex-col">
       <div className="relative">
         <img src={PokeLogo} alt="" className="absolute top-5 left-20" />
         <Link to="/pokemon">
@@ -41,7 +41,7 @@ function PokemonDetails() {
             className=" max-h-56 absolute top-1/3 -translate-x-1/2  left-1/2"
           />
         </div>
-        <h2 className="text-center mt-12 text-4xl text-pokemonBgText font-black [-webkit-text-stroke-width:0.06em] [-webkit-text-stroke-color:#2c72b8] ">
+        <h2 className="text-center mt-12 text-4xl text-pokemonBgText font-black [-webkit-text-stroke-width:0.06em] [-webkit-text-stroke-color:#2c72b8]">
           <span className="mr-3">#{pokemonItem.id}</span>
           {pokemonItem.name}
         </h2>
