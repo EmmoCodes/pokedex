@@ -40,7 +40,7 @@ function PokemonDetails() {
         </h2>
         <div className="flex justify-around mt-12">
           {pokemonItem.types.map(type => (
-            <div key={type.type.name} className={`bg-steel   text-2xl`}>
+            <div key={type.type.name} className={`bg-${type.type.name} text-2xl`}>
               {type.type.name}
             </div>
           ))}
